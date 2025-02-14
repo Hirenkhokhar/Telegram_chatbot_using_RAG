@@ -9,19 +9,24 @@ This project demonstrates a Telegram chatbot powered by Retrieval-Augmented Gene
 - Retrieves information from a custom knowledge base
 - Uses ChromaDB for storing documents
 
-## Requirements
-- Python 3.8+
-- `python-telegram-bot` library
-- `langchain.llms` library (for LLaMA 3)
-- `huggingface_hub` library
-- `langchain` library
-- `chromadb` library
-  
+## Setup
 
-## Installation
+### 1. Clone the Repository
 
-1. Clone the repository:
+``` bash
+git clone https://github.com/Hirenkhokhar/Telegram_chatbot_using_RAG.git
+```
+### 2 Activate Environment
+```bash
+conda activate ./{venv_name}
+```
+### 3. Install Dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### 4. **Run the Application**:
 
    ```bash
-   git clone https://github.com/Hirenkhokhar/telegram_chatbot_using_rag.git
-   cd telegram-chatbot-rag
+   python app.py
+   ```
